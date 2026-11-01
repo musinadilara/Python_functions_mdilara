@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="-2yaZh1FvI73hmlUutgT">
+    <mxGraphModel dx="713" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;perimeterSpacing=1;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;perimeterSpacing=1;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="140" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=default;rotation=0;gradientColor=none;" value="&lt;pre&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 10px;&quot;&gt;find_abbreviations&lt;br&gt;(string)&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=0;" value="result = find_abbreviations(N)" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="Получаем строку string" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-6" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=default;rotation=0;gradientColor=none;" value="&lt;pre&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 10px;&quot;&gt;find_abbreviations&lt;br&gt;(string)&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;perimeterSpacing=1;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="420" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-8" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-5" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-9" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-3" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="240" as="sourcePoint" />
+            <mxPoint x="110" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="Вводим строку String" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-11" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-10" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Vmzc75EtnVWavmbnSTXN-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="350" as="sourcePoint" />
+            <mxPoint x="150" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="Выводим result" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-14" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-2" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-15" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-4" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="380" as="sourcePoint" />
+            <mxPoint x="100" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-16" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-12" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="500" as="sourcePoint" />
+            <mxPoint x="110" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-17" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=0;" value="С помощью регулярных выражений находим список аббревиатур" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-18" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=0;" value="Соединяем список в строку&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="Возвращаем result" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;perimeterSpacing=1;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="420" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-21" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-20" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" target="Vmzc75EtnVWavmbnSTXN-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="660" as="sourcePoint" />
+            <mxPoint x="590" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-22" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-19" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="430" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-23" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-17" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="340" as="sourcePoint" />
+            <mxPoint x="380" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vmzc75EtnVWavmbnSTXN-25" edge="1" parent="1" source="Vmzc75EtnVWavmbnSTXN-18" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="Vmzc75EtnVWavmbnSTXN-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="450" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
